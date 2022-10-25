@@ -16,7 +16,6 @@ export default function DisplayImg() {
   const viewImg = (e) => {
     e.preventDefault()
     setView(true)
-    console.log('uploadedFile ', storeFile)
   }
   const setImg = (e) => {
     e.preventDefault()
